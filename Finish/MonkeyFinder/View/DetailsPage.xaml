@@ -9,7 +9,7 @@
     <ScrollView BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
         <Grid RowDefinitions="Auto,Auto,*">
             <BoxView
-                BackgroundColor="{StaticResource Primary}"
+                BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
                 Grid.RowSpan="2"
                 HorizontalOptions="Fill"
                 VerticalOptions="Fill"/>
@@ -40,7 +40,7 @@
 
             <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
                 <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.scientificName}" FontAttributes="Italic" HorizontalTextAlignment="Center" />
-                <Label Style="{StaticResource MediumLabel}" Text="{Binding Fox.name}" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Fox.description}" />
                 <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.location, StringFormat='Location: {0}'}" />
                 <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.population, StringFormat='Population: {0}'}" />
                 <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.status, StringFormat='Status: {0}'}" />

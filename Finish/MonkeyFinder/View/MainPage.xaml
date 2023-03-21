@@ -7,7 +7,7 @@
     xmlns:viewmodel="clr-namespace:MonkeyFinder.ViewModel"
     xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
     ios:Page.UseSafeArea="True"
-    Title="Monkeys"
+    Title="The Fox Library"
     x:DataType="viewmodel:FoxesViewModel">
     <Grid
         ColumnDefinitions="*,*"
@@ -75,7 +75,7 @@
             Command="{Binding GetFoxesCommand}"
             IsEnabled="{Binding IsNotBusy}"
             Style="{StaticResource ButtonOutline}"
-            Text="Get Monkeys" />
+            Text="Get Foxes" />
 
         <ActivityIndicator
             Grid.RowSpan="2"
@@ -83,7 +83,7 @@
             HorizontalOptions="Fill"
             IsRunning="{Binding IsBusy}"
             IsVisible="{Binding IsBusy}"
-            Color="{StaticResource Primary}"
+            Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
             VerticalOptions="Center" />
     </Grid>
 </ContentPage>

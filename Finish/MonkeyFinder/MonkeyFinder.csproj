@@ -10,7 +10,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>MonkeyFinder</ApplicationTitle>
+		<ApplicationTitle>The Fox Library</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.monkeyfinder</ApplicationId>
@@ -23,10 +23,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="#ff7a00" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\appiconfg.svg" Color="#512BD4" />
+		<MauiSplashScreen Include="Resources\appiconfg.svg" Color="#ff7a00" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
