@@ -77,6 +77,12 @@
             Style="{StaticResource ButtonOutline}"
             Text="Get Foxes" />
 
+        <Label 
+            Grid.Row="1"
+            Grid.Column="1"
+            Style="{StaticResource MediumLabel}" 
+            Text="Authors: Hugo Frangiamone" />
+
         <ActivityIndicator
             Grid.RowSpan="2"
             Grid.ColumnSpan="2"
