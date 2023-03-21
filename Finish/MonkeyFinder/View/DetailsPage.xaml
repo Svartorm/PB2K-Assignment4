@@ -4,8 +4,8 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewmodel="clr-namespace:MonkeyFinder.ViewModel"
-    Title="{Binding Monkey.Name}"
-    x:DataType="viewmodel:MonkeyDetailsViewModel">
+    Title="{Binding Fox.name}"
+    x:DataType="viewmodel:FoxDetailsViewModel">
     <ScrollView BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
         <Grid RowDefinitions="Auto,Auto,*">
             <BoxView
@@ -26,7 +26,7 @@
                         HeightRequest="160"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
-                        Source="{Binding Monkey.Image}"
+                        Source="{Binding Fox.image}"
                         WidthRequest="160"/>
             </Border>
 
@@ -34,22 +34,16 @@
                    Grid.Row="1"
                    TextColor="White"
                    FontAttributes="Bold"
-                   Text="{Binding Monkey.Name}" 
+                   Text="{Binding Fox.name}" 
                    HorizontalOptions="Center"
                    Margin="0,0,0,8"/>
 
             <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
-                <!-- Add this -->
-                <Button Text="Show on Map" 
-                        Command="{Binding OpenMapCommand}"
-                        HorizontalOptions="Center" 
-                        WidthRequest="200" 
-                        Margin="8"
-                        Style="{StaticResource ButtonOutline}"/>
-
-                <Label Style="{StaticResource MediumLabel}" Text="{Binding Monkey.Details}" />
-                <Label Style="{StaticResource SmallLabel}" Text="{Binding Monkey.Location, StringFormat='Location: {0}'}" />
-                <Label Style="{StaticResource SmallLabel}" Text="{Binding Monkey.Population, StringFormat='Population: {0}'}" />
+                <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.scientificName}" FontAttributes="Italic" HorizontalTextAlignment="Center" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Fox.name}" />
+                <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.location, StringFormat='Location: {0}'}" />
+                <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.population, StringFormat='Population: {0}'}" />
+                <Label Style="{StaticResource SmallLabel}" Text="{Binding Fox.status, StringFormat='Status: {0}'}" />
             </VerticalStackLayout>
         </Grid>
     </ScrollView>

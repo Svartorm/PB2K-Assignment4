@@ -23,11 +23,11 @@ public static class MauiProgram
 		builder.Services.AddSingleton<IGeolocation>(Geolocation.Default);
 		builder.Services.AddSingleton<IMap>(Map.Default);
 
-		builder.Services.AddSingleton<MonkeyService>();
-		builder.Services.AddSingleton<MonkeysViewModel>();
+		builder.Services.AddSingleton<FoxService>();
+		builder.Services.AddSingleton<FoxesViewModel>();
 		builder.Services.AddSingleton<MainPage>();
 
-		builder.Services.AddTransient<MonkeyDetailsViewModel>();
+		builder.Services.AddTransient<FoxDetailsViewModel>();
 		builder.Services.AddTransient<DetailsPage>();
 
 		return builder.Build();

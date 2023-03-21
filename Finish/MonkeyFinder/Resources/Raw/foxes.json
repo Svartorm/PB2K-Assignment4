@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Arctic Fox",
+    "scientificName": "Vulpes lagopus",
+    "description": "The Arctic fox is a small, white fox that is native to the Arctic regions of the Northern Hemisphere. It has a thick coat of fur that helps it survive in cold temperatures.",
+    "location": "Arctic regions of the Northern Hemisphere",
+    "population": 100000,
+    "status": "Least Concern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Iceland-1979445_%28cropped_2%29.jpg"
+  },
+  {
+    "name": "Fennec Fox",
+    "scientificName": "Vulpes zerda",
+    "description": "The fennec fox is a small nocturnal fox found in the Sahara of North Africa. It has large ears to dissipate heat and sand, and can survive without drinking water for long periods of time.",
+    "location": "Sahara of North Africa",
+    "population": 70000,
+    "status": "Least Concern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Fennec_Fox_Peek.jpg"
+  },
+  {
+    "name": "Red Fox",
+    "scientificName": "Vulpes vulpes",
+    "description": "The red fox is the largest of the true foxes and is found throughout most of the world. It has a distinctive red coat and is known for its cunning and intelligence.",
+    "location": "Throughout most of the world",
+    "population": 3000000,
+    "status": "Least Concern",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/9/9f/Vulpes_vulpes_ssp_fulvus_6568061.jpg"
+  },
+  {
+    "name": "Gray Fox",
+    "scientificName": "Urocyon cinereoargenteus",
+    "description": "The gray fox is a small, omnivorous fox that is found in North and Central America. It has a distinctive gray coat and is known for its ability to climb trees.",
+    "location": "North and Central America",
+    "population": 500000,
+    "status": "Least Concern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gray_fox.jpg"
+  },
+  {
+    "name": "Kit Fox",
+    "scientificName": "Vulpes macrotis",
+    "description": "The kit fox is a small fox found in the southwestern United States and Mexico. It has large ears for thermal regulation and is able to live in very arid environments.",
+    "location": "Southwestern United States and Mexico",
+    "population": 20000,
+    "status": "Least Concern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Vulpes_macrotis_mutica_resting.jpg"
+  },
+  {
+    "name": "Swift Fox",
+    "scientificName": "Vulpes velox",
+    "description": "The swift fox is a small fox found in the western United States and Canada. It has long legs for running and is able to run at speeds up to 50 km/h.",
+    "location": "Western United States and Canada",
+    "population": 10000,
+    "status": "Least Concern",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Swift_fox_%28Vulpes_velox%29_%2814783918880%29.jpg"
+  },
+  {
+    "name": "Corsac Fox",
+    "scientificName": "Vulpes corsac",
+    "description": "The corsac fox is a medium-sized fox found in central Asia. It has a grayish-yellow coat and is known for its adaptability to various environments.",
+    "location": "Central Asia",
+    "population": 250000,
+    "status": "Least Concern",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/0/07/Vulpes_corsac.jpg"
+  },
+  {
+    "name": "Cape Fox",
+    "scientificName": "Vulpes chama",
+    "description": "The cape fox is a small fox found in southern Africa. It has a distinctive black stripe running down its tail and is known for its nocturnal behavior.",
+    "location": "Southern Africa",
+    "population": 50000,
+    "status": "Least Concern",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/2/25/Cape_Fox_%28Vulpes_chama%29_pup_..._%2851002154952%29.jpg"
+  }
+]
