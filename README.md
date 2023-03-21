@@ -36,19 +36,19 @@ The full dataset can be found [here](Finish/MonkeyFinder/Resources/Raw/foxes.jso
 ## Main Page 
 The main page is a scrollable list of all the fox species. A button is also present for the user to refresh the list (Considering that you could use a REST API). Each species has a 'card' displaying a picture, name (scientific) and the location of the fox. 
 
-![Main Page](docs/img/light_main.jpg)
-![Main Page](docs/img/light_list.jpg)
+![Main Page](Docs/img/light_main.jpg)
+![Main Page](Docs/img/light_list.jpg)
 
 ## Detail Page
 The detail page is a page that shows the details of a specific fox species. The page has a header giving the fox name and a picture of the fox. The page also has a body with the description, location, population and status of the fox.
 
-![Detail Page](docs/img/light_detail.jpg)
+![Detail Page](Docs/img/light_detail.jpg)
 
 ## Theme changes
 We defined a primary color and a secondary color for the application. The primary color is used for the header and the secondary color is used for the body. The theme changes between a light and a dark theme by using the primaryDark and secondaryDark colors instead. You can see the difference between the two themes below.
 
-![Light Theme](docs/img/light_list.jpg)
-![Dark Theme](docs/img/dark_list.jpg)
+![Light Theme](Docs/img/light_list.jpg)
+![Dark Theme](Docs/img/dark_list.jpg)
 
-![Light Theme](docs/img/light_detail.jpg)
-![Dark Theme](docs/img/dark_detail.jpg)
+![Light Theme](Docs/img/light_detail.jpg)
+![Dark Theme](Docs/img/dark_detail.jpg)
